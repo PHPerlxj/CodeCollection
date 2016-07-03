@@ -1,4 +1,4 @@
-//在目标元素前插入元素
+//Insert element after target element
 function insertAfter(newElement,targetElement){ 
 	var parent = targetElement.parentNode;
 	if(parent.lastChild == targetElement){

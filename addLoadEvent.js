@@ -1,4 +1,4 @@
-//¶àº¯Êý¼ÓÔØonload
+//Load multiple function
 function addLoadEvent(func){
 	var oldonload = window.onload;
 	if(typeof window.onload != 'function'){
